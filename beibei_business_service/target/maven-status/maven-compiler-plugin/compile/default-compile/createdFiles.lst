@@ -1,0 +1,4 @@
+cn\qd\dao\AdDao.class
+cn\qd\service\AdServiceImpl.class
+cn\qd\BusinessServerApp.class
+cn\qd\init\InitData.class

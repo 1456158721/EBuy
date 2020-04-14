@@ -1,0 +1,13 @@
+
+beibei:
+  mq:
+    queue: beibei_queue_sms_01
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtualHost: /
+

@@ -1,0 +1,10 @@
+cn\qd\controller\BrandController.class
+cn\qd\controller\ParaController.class
+cn\qd\controller\TemplateController.class
+cn\qd\controller\SpecController.class
+cn\qd\controller\App.class
+cn\qd\controller\file\FileUpload.class
+cn\qd\controller\CategoryController.class
+cn\qd\controller\config\OssConfig.class
+cn\qd\controller\SpuController.class
+cn\qd\controller\config\BaseExceptionHandler.class

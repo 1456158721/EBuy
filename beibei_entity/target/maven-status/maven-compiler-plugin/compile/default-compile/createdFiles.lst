@@ -1,0 +1,13 @@
+cn\qd\model\MessageModel.class
+cn\qd\entity\CategoryBrand.class
+cn\qd\entity\Para.class
+cn\qd\entity\Sku.class
+cn\qd\entity\Ad.class
+cn\qd\entity\Category.class
+cn\qd\entity\Spec.class
+cn\qd\model\PageModel.class
+cn\qd\model\Goods.class
+cn\qd\entity\User.class
+cn\qd\entity\Spu.class
+cn\qd\entity\Brand.class
+cn\qd\entity\Template.class

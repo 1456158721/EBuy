@@ -1,0 +1,52 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.cas.common.config.CasProperties",
+      "name": "cas",
+      "type": "com.cas.common.config.CasProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.cas.common.config.CasProperties",
+      "name": "cas.client-login",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cas.common.config.CasProperties",
+      "name": "cas.client-logout",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cas.common.config.CasProperties",
+      "name": "cas.client-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cas.common.config.CasProperties",
+      "name": "cas.server-login",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cas.common.config.CasProperties",
+      "name": "cas.server-logout",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cas.common.config.CasProperties",
+      "name": "cas.server-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cas.common.config.CasProperties",
+      "name": "cas.trust-store-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.cas.common.config.CasProperties",
+      "name": "cas.trust-store-path",
+      "type": "java.lang.String"
+    }
+  ]
+}

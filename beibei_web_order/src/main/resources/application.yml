@@ -1,0 +1,22 @@
+
+server:
+  port: 9103
+
+
+dubbo:
+  application:
+    name: beibei-server-web-order
+  registry:
+    id: zookeeper
+    address: zookeeper://127.0.0.1:2181
+
+spring:
+  mvc:
+    static-path-pattern=/**:
+  application:
+    name: beibei-server-web-order
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    content-type: text/html

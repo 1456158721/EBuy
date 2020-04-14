@@ -1,0 +1,12 @@
+cn\qd\service\SpecService.class
+cn\qd\service\AdService.class
+cn\qd\service\OrderItem.class
+cn\qd\service\SkuService.class
+cn\qd\service\ParaService.class
+cn\qd\service\CategoryService.class
+cn\qd\service\UserService.class
+cn\qd\service\BrandService.class
+cn\qd\service\CartService.class
+cn\qd\service\SpuService.class
+cn\qd\service\TemplateService.class
+cn\qd\service\SearchGoodsService.class

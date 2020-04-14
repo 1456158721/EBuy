@@ -1,0 +1,40 @@
+
+
+spring:
+  redis:
+    database: 0
+    # 单机使用，对应服务器ip
+    host: 127.0.0.1
+    # 密码
+    # password:
+    # 单机使用，对应端口号
+    port: 6379
+    # 池配置
+    pool:
+      max-idle: 8
+      min-idle: 0
+      max-active: 8
+      max-wait: -1
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/beibei_goods?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: root
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+      driver-class-name: com.mysql.jdbc.Driver
+
+
+dubbo:
+  application:
+    id: goods
+    name: goods
+  protocol:
+    id: dubbo
+    name: dubbo
+    port: "20880"
+  registry:
+    id: zookeeper
+    address: zookeeper://127.0.0.1:2181

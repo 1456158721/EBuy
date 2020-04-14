@@ -1,0 +1,19 @@
+
+server:
+  port: 8100
+
+dubbo:
+  application:
+    name: manager
+  registry:
+    id: zookeeper
+    address: zookeeper://127.0.0.1:2181
+
+
+aliyun:
+  oss:
+    bucketName: beibei01
+    endpoint: https://oss-cn-chengdu.aliyuncs.com
+    accessKeyId: LTAI4FeghoZfdstfqMehrDR2
+    accessKeySecret: PYjlrTKNLIWRcg1FNlvotaigDp8Vqb
+    callback: https://beibei01.oss-cn-chengdu.aliyuncs.com
